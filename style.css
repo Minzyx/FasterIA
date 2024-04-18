@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Alegreya_Sans_SC';
+    src: url(fonts/AlegreyaSansSC-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container-grid{
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.banner{
+    
+}
