@@ -1,7 +1,13 @@
 @font-face {
     font-family: 'Alegreya_Sans_SC';
-    src: url(fonts/AlegreyaSansSC-Regular.ttf);
+    src: url(fonts/AlegreyaSansSC-Regular.ttf); 
 }
+
+@font-face {
+    font-family: 'Alata';
+    src: url(fonts/Alata-Regular.ttf); 
+}
+
 
 *{
     margin: 0;
@@ -20,5 +26,95 @@ html{
 }
 
 .banner{
+    height: 100vh;
+    background-size: cover;
+
+    background-image: linear-gradient(180deg, rgba(121,36,153,1) 0%, rgba(202,60,255,0.45) 100%), url(gif/banner1.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    height: 165px;
+}
+
+header div.container-grid {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoo{
+    margin-top: 50px;
+}
+
+header img {
+    width: 180px;
+}
+
+
+header button{
+    display: none;
+}
+
+.menu {
+    width: 700px;
+
+    display: flex;
+    justify-content: space-between;
     
 }
+
+.menu a {
+    color: white;
+
+    font-family: 'Alegreya_Sans_SC';
+    font-size: 20px;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+
+    transition: text-decoration 500ms ease;
+}
+
+.menu a:hover {
+    text-decoration-color: white;
+}
+
+.conteudo-banner {
+    height: calc(100vh - 280px);
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-banner p {
+    color: white;
+
+    font-family: 'Alata';
+    font-size: 32px;
+    text-align: center;
+    
+    margin-left: 415px;
+    margin-bottom: 50px;
+}
+
+.conteudo-banner button{
+    width: 20%;
+    height: 70px;
+    cursor: pointer;
+    background-color: rgba(251, 251, 251, 0);
+    color: white;
+    border-radius: 18px;
+    border-color: white;
+    font-size:20px;
+}
+
+.conteudo{
+    height: 300px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
