@@ -160,7 +160,8 @@ h2{
     width: 100%;
     background-color:#662081;
     height: 600px;
-    border-radius: 30px; 
+    border-radius: 10px; 
+    margin-top: 20px;
     /* border: solid;
     border-color: #56196e;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5); */
@@ -173,5 +174,67 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-content: space-between;
+  
  
+}
+
+#fundo h2{
+    text-align: center;
+    color: white;
+}
+
+.cases a{
+    color: white;
+
+    font-family: 'Alegreya_Sans_SC';
+    font-size: 20px;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+
+    transition: text-decoration 500ms ease;
+}
+
+
+#definicao h2{
+    color: white;
+    font-size: 40px;
+}
+
+#definicao p{
+    color: white;
+    font-family: "Alata";
+    text-align: left;
+    font-size: 25px;
+    margin-top: 50px;
+    
+
+}
+
+
+
+#definicao{
+    height: 600px;
+    width: 65%;
+    text-align: center;
+    padding: 100px 15%;
+    border: 3px solid white;
+    border-radius: 66px;
+}
+
+
+#portfolio {
+    height: 600px;
+       background-image: linear-gradient(180deg, rgba(121,36,153,1) 0%, rgba(202,60,255,0.45) 100%), url(gif/banner2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+#portfolio h2{
+    font-family: "Alata";
+    color: white;
+    margin-top: 200px;
 }
