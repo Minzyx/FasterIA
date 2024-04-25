@@ -175,7 +175,8 @@ h2{
   justify-content: center;
   align-items: center;
   justify-content: space-between;
-  
+  box-shadow: 0px 3px 12px -1px rgba(0,0,0,0.75);
+
  
 }
 
@@ -224,17 +225,89 @@ h2{
 
 
 #portfolio {
+    margin-top: 200px;
     height: 600px;
-       background-image: linear-gradient(180deg, rgba(121,36,153,1) 0%, rgba(202,60,255,0.45) 100%), url(gif/banner2.gif);
+       background-image: linear-gradient(-90deg, rgba(202,60,255,0.47) 0%, rgba(121,36,153,1) 66%, rgba(121,36,153,1) 100%), 
+       url(gif/banner2.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Alata";
     
 }
 
 
-#portfolio h2{
+#portfolio .container-grid h2{
     font-family: "Alata";
     color: white;
-    margin-top: 200px;
+    
+
+}
+
+#portfolio button{
+    width: 21%;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+    cursor: pointer;
+    background-color: rgba(251, 251, 251, 0);
+    color: white;
+    font-size: 22px;
+    font-family: "Alata";
+    border-radius: 20px;
+     border: 2px solid white;
+}
+
+#contato{
+    height: 1000px;
+}
+
+#contato p{
+    color: white;
+    font-family: "Alegreya_Sans_SC";
+    font-size: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#contato form {
+    height: 600px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 60px 0;
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(67, 43, 76, 0.115);
+    border: 3px solid white;
+    border-radius: 40px;
+
+    
+}
+
+#contato form label {
+    color: white;
+    font-family: "Alegreya_Sans_SC";
+   
+}
+
+.campo input {
+    border: none; 
+           
+    background-color: rgba(67, 43, 76, 0);
+}
+
+.campo{
+    border-bottom: 1px solid white;
+    width: 65%;
+}
+
+.campo #campo-email{
+    margin-top: 30px;
 }
