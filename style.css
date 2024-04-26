@@ -22,6 +22,7 @@ html{
 body{
     background: rgb(95,28,120);
     background: linear-gradient(180deg, rgba(95,28,120,1) 0%, rgba(121,36,153,1) 100%);
+   
 }
 
 .container-grid{
@@ -263,7 +264,7 @@ h2{
 }
 
 #contato{
-    height: 1000px;
+    height: 1100px;
 }
 
 #contato p{
@@ -272,11 +273,12 @@ h2{
     font-size: 30px;
     align-items: center;
     margin-bottom: 20px;
+
 }
 
 #contato form {
-    height: 600px;
-    width: 50%;
+    height: 950px;
+    width: 60%;
     margin: 0 auto;
     padding: 60px 0;
     margin-top: 150px;
@@ -286,7 +288,8 @@ h2{
     align-items: center;
     background-color: rgba(67, 43, 76, 0.115);
     border: 3px solid white;
-    border-radius: 40px;
+    border-radius: 20px;
+
 
     
 }
@@ -294,20 +297,283 @@ h2{
 #contato form label {
     color: white;
     font-family: "Alegreya_Sans_SC";
+    font-size: 25px;
    
 }
 
 .campo input {
-    border: none; 
-           
+    width: 520px;
+
+    margin-left: 20px;
+    border: none;
+    color: white;   
     background-color: rgba(67, 43, 76, 0);
+    font-family: "Alata";
+    font-size: 20px;
+    
 }
 
 .campo{
     border-bottom: 1px solid white;
-    width: 65%;
+    width: 70%;
+    margin-top: 20px;
 }
 
+
 .campo #campo-email{
-    margin-top: 30px;
+    margin-top: 50px;
+}
+
+
+
+.campo-textarea {
+    font-family: "Alegreya_Sans_SC";
+}
+
+.campo-textarea textarea{
+    background-color: #61187D;
+
+    margin-top: 100px;
+    padding: 20px;
+    width: 700px;
+    height: 90%;
+    border: none;
+    border-radius: 48px;
+    
+    color: white;
+    font-family: "Alata";
+    font-size: 17px;
+
+    outline: none;
+    resize: none;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+
+
+}
+
+ #contato button{
+    width: 25%;
+    height: 75px;
+    margin-top: 150px;
+    
+    
+    cursor: pointer;
+    background-color: rgba(251, 251, 251, 0);
+    color: white;
+    font-size: 22px;
+    font-family: "Alata";
+    border-radius: 20px;
+    border: 2px solid white;
+    
+
+
+
+
+}
+
+#contato form button:hover {
+    border: 2px solid #CA3CFF;
+
+}
+
+.campo input:focus,
+.campo-textarea textarea:focus {
+    outline: none
+}
+
+
+footer{
+    height: 290px;
+    background-color: #662081;
+    border-radius: 21px;
+}
+
+footer .container-grid {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.redes-sociais p {
+    color: white;
+
+    font-family: "Alata";
+    font-size: 24px;
+}
+
+.icones-redes {
+    width: 240px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+
+
+.contatos p {
+    margin-bottom: 30px;
+    
+    color: white;
+    
+    font-family: "Alata";
+    font-size: 24px;
+    
+}
+
+
+.contatos {
+    width: 290px;
+    
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.contatos a{
+    color: white;
+    font-family: "Alata";
+    font-size: 25px;
+    
+    
+    text-decoration: none;
+
+
+}
+
+.contatos svg{
+    margin-right: 10px;
+}
+
+.icones-redes a {
+
+    color: white;
+}
+
+
+.icones-redes a:hover {
+
+    color: #CA3CFF;
+}
+
+@media screen and (max-width: 1300px) {
+    header {
+
+        position: relative;
+
+    }
+
+    .conteudo-banner p{
+        margin-top: 5%;
+    }
+
+    .conteudo-banner button{
+        width: 20%;
+        font-size: 15px;
+    }
+
+    .caixa img{
+        height: 200%;
+    }
+
+    #contato button{
+        margin-bottom: 30px;
+        height: 40%;
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    
+
+
+    header .container-grid{
+    
+    width: 80vw;
+    margin: 0;
+
+ }
+
+    .logoo{
+        height: 75%;
+        margin-left: 30px;
+    }
+
+  
+
+    .menu a{
+
+        margin-left: 50px;
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .banner{
+        width: 100%;
+    }
+
+
+    .conteudo p{
+        margin-top: 40px;
+    }
+
+    .conteudo button{
+        width: 40%;
+        font-size: 20px;
+        margin-top: 45px;
+    }
+
+    body{
+     width: 100%;
+       
+    }
+
+    .caixa img{
+        height: 150px;
+    }
+
+    .caixa{
+        height: 350px;
+        border-radius: 40px;
+    }
+
+    #fundo h2{
+        margin-bottom: 30px;
+    }
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
