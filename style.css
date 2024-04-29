@@ -44,6 +44,10 @@ header{
     height: 165px;
 }
 
+header button{
+    display: none;
+}
+
 header div.container-grid {
     height: 100%;
     display: flex;
@@ -70,6 +74,10 @@ header button{
     display: flex;
     justify-content: space-between;
     
+}
+
+.menu button{
+    display: none;
 }
 
 .menu a {
@@ -177,7 +185,10 @@ h2{
   align-items: center;
   justify-content: space-between;
   box-shadow: 0px 3px 12px -1px rgba(0,0,0,0.75);
-
+  height: 70%;
+  border-radius: 60px;
+  margin-top: 30px;
+  
  
 }
 
@@ -304,7 +315,7 @@ h2{
 .campo input {
     width: 520px;
 
-    margin-left: 20px;
+    margin-left: 10px;
     border: none;
     color: white;   
     background-color: rgba(67, 43, 76, 0);
@@ -333,7 +344,7 @@ h2{
 .campo-textarea textarea{
     background-color: #61187D;
 
-    margin-top: 100px;
+    margin-top: 20px;
     padding: 20px;
     width: 700px;
     height: 90%;
@@ -350,6 +361,11 @@ h2{
 
 
 }
+
+    .campo-textarea p {
+        margin-top: 60px;
+        margin-left: 18%;
+    }
 
  #contato button{
     width: 25%;
@@ -381,6 +397,10 @@ h2{
     outline: none
 }
 
+.campo-textarea p{
+    font-size: 20px;
+}
+
 
 footer{
     height: 290px;
@@ -403,6 +423,7 @@ footer .container-grid {
 
     font-family: "Alata";
     font-size: 24px;
+    margin-top: 13px;
 }
 
 .icones-redes {
@@ -491,89 +512,287 @@ footer .container-grid {
 
 }
 
+    
+
+
 @media screen and (max-width: 800px) {
 
     
 
 
-    header .container-grid{
+        header .container-grid{
+        
+        width: 80vw;
+        margin: 0;
     
-    width: 80vw;
-    margin: 0;
+     }
+    
+        .logoo{
+            height: 75%;
+            margin-left: 30px;
+        }
+    
+      
+    
+        .menu a{
+    
+            margin-left: 60px;
+            font-size: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+    
+    
+        .banner{
+            width: 100%;
+        }
+    
+    
+        .conteudo p{
+            margin-top: 40px;
+            font-size: 25px;
+        }
+    
+        .conteudo button{
+            width: 40%;
+            font-size: 20px;
+            margin-top: 45px;
+        }
+    
+        body{
+         width: 100%;
+           
+        }
+    
+        #fundo {
+            height: 600px;
+        }
+    
+        .caixa img{
+            height: 180px;
+        }
+    
+        .caixa{
+            height: 380px;
+            border-radius: 40px;
+        }
+    
+        #fundo h2{
+            margin-bottom: 30px;
+        }
+    
+        #sobre p{
+            font-size: 20px;
+        }
+    
+        #definicao{
+            width: 80%;
+        }
+        
+        #definicao p{
+            font-size: 23px;
+    
+        }
+    
+        
+        .campo #campo-email{
+            margin-top: 0px;
+        }
+    
+        #contato form{
+            margin-top: 150px;
+            width: 75%;
+            height: 70%;
+        }
+    
+        
+    
+        .campo-textarea textarea{
+            width: 100%;
+            height: 130%;
+            padding: 0%;
+            align-items: center;
+            margin-right: 60px;
+            font-size: 18px;
+            border-radius: 20px;
+            padding: 30px;
+        }
+    
+        .campo-textarea{
+            height: 30%;
+        }
 
- }
-
-    .logoo{
-        height: 75%;
-        margin-left: 30px;
-    }
-
-  
-
-    .menu a{
-
-        margin-left: 50px;
-        font-size: 15px;
-        display: flex;
-        justify-content: space-between;
-    }
+        .campo-textarea p{
+            font-size: 10px;
+            margin-left: auto;
+        }
+        
 
 
-    .banner{
-        width: 100%;
-    }
+        .campo input{
+            width: 300px;
+        }
 
-
-    .conteudo p{
-        margin-top: 40px;
-    }
-
-    .conteudo button{
-        width: 40%;
-        font-size: 20px;
-        margin-top: 45px;
-    }
-
-    body{
-     width: 100%;
-       
-    }
-
-    .caixa img{
-        height: 150px;
-    }
-
-    .caixa{
-        height: 350px;
-        border-radius: 40px;
-    }
-
-    #fundo h2{
-        margin-bottom: 30px;
-    }
 
     
-
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        #contato button{
+            height: 60px;
+            width: 30%;
+            margin-top: 39%;
+            margin-bottom: 0px;
+    
+        }
+    
+       footer{
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        }        
+    
+        footer img{
+            height: 100px;
+            margin-right: 0px;
+        }
+    
+        .redes-sociais p{
+            font-size: 17px;
+            margin-left: 15px;
+        }
+    
+    
+        
 }
+    
+    @media screen and (max-width: 700px){
+    
+        header .container-grid{
+        
+            width: 100%;
+            margin: 0px;
+        
+         }
+
+         header button {
+
+            width: 50px;
+            display: unset;
+            background: none;
+            border: none;
+            margin-right: 70px;
+       
+    
+        }
+    
+        header svg {
+    
+            fill: white
+        }
+    
+        nav.menu {
+            height: 500px;
+            width: 350px;
+            padding: 0px 30px;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-start;
+            background-color: #000000e0;
+    
+            position: absolute;
+            top: 165px;
+            right: 0px;
+    
+        }
+        
+        #contato p{
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .campo-textarea p{
+            margin-left: 1%;
+        }
+
+        #contato button{
+            margin-top: 46%;
+            height: 50px;
+        }
+         
+    }
+    
+    @media screen and (max-width: 500px){
+        .caixa img{
+           
+            height: 30%;
+        }
+
+        .conteudo-banner button{
+            width: 50%;
+            font-size: 17px;
+        }
+
+        #sobre h2{
+            font-size: 23px;
+        }
+
+        #sobre p{
+            font-size: 18px;
+        }
+
+
+
+        #fundo h2{
+            font-size: 23px;
+        }
+
+
+        #definicao {
+            border-radius: 30px;
+        }
+
+        #definicao h2{
+            font-size: 28px;
+        }
+
+        #definicao p{
+            font-size: 20px;
+        }
+
+        #portfolio button{
+            width: 30%;
+        }
+
+        .campo p {
+            font-size: 10px;
+        }
+
+        .campo input{
+            width: 70%;
+        }
+
+        #contato form label {
+           
+            font-size: 17px;
+           
+        }
+        
+        .campo input {
+
+            font-size: 16px;
+            
+        }
+
+        .campo-textarea textarea{
+            width: 86%;
+            margin-left: 7%;
+        }
+
+       #contato button{
+            margin-top: 70%;
+       }
+
+       #contato p{
+        font-size: 25px;
+       }
+
+    
+  }
