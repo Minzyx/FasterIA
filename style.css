@@ -470,7 +470,7 @@ footer .container-grid {
 }
 
 .contatos svg{
-    margin-right: 10px;
+    margin-right: auto;
 }
 
 .icones-redes a {
@@ -722,7 +722,7 @@ footer .container-grid {
     @media screen and (max-width: 500px){
         .caixa img{
            
-            height: 30%;
+            height: 60%;
         }
 
         .conteudo-banner button{
@@ -742,6 +742,10 @@ footer .container-grid {
 
         #fundo h2{
             font-size: 23px;
+        }
+
+        .caixa{
+            overflow-x: auto;
         }
 
 
@@ -795,4 +799,78 @@ footer .container-grid {
        }
 
     
+       .icones-redes{
+        gap: 0px;
+        width: 0px;
+
+       
+       
+    }
+  }
+
+  @media screen and (max-width: 320px){
+    .caixa img{
+        height: 250px;
+    }
+
+    #sobre {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #sobre p {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .caixa{
+        overflow-x: auto;
+    }
+
+    .icones-redes{
+        display: none;
+    }
+
+    #definicao{
+        width: 95%;
+        height: auto;
+    }
+
+    #definicao p{
+        font-size: 15px;
+    }
+
+    #portfolio h2{
+        font-size: 20px;
+        margin-bottom: 20%;
+    }
+
+    #portfolio button{
+        width: 50%;
+    
+    }
+
+    #contato{
+       
+        width: 100%;
+       margin-top: 50%;
+    }
+
+    #contato form{
+
+        margin: 4px;
+        width: 97%;
+    }
+
+    .campo-textarea textarea{
+        
+        width: 80%;
+        margin-right: 0%;
+        margin-left: 10%;
+    }
+
+    #contato button{
+        margin-top: 90%;
+        width: 50%;
+    }
   }
