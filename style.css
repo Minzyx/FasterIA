@@ -80,6 +80,14 @@ header button{
     display: none;
 }
 
+.menu-fechado{
+    display: none;
+}
+
+#icone-barras{
+    display: none;
+}
+
 .menu a {
     color: white;
 
@@ -484,6 +492,8 @@ footer .container-grid {
     color: #CA3CFF;
 }
 
+
+
 @media screen and (max-width: 1300px) {
     header {
 
@@ -532,7 +542,9 @@ footer .container-grid {
             margin-left: 30px;
         }
     
-      
+      .menu{
+        display: none;
+      }
     
         .menu a{
     
@@ -827,8 +839,9 @@ footer .container-grid {
         overflow-x: auto;
     }
 
-    .icones-redes{
-        display: none;
+    .icones-redes svg{
+        height: 20%;
+ 
     }
 
     #definicao{
@@ -873,4 +886,5 @@ footer .container-grid {
         margin-top: 90%;
         width: 50%;
     }
+
   }
