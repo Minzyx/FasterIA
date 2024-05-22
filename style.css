@@ -737,6 +737,22 @@ footer .container-grid {
 
 }
 
+@media screen and (max-width: 600px) {
+    #definicao p{
+        font-size: 20px;
+    }
+
+   #contato button{
+        margin-top: 60%;
+    }
+
+    #contato .campo-textarea{
+        width: 70%
+    }
+}
+
+
+
 @media screen and (max-width: 500px) {
     .caixa img {
 
@@ -894,4 +910,31 @@ footer .container-grid {
         width: 50%;
     }
 
+}
+
+@media screen and (max-width: 380px){
+    .conteudo button {
+        font-size: 15px;
+        width: 70%;
+    }
+
+    #sobre p{
+        font-size: 16px;
+    }
+
+    #definicao p{
+        font-size: 16px;
+    }
+
+    #portfolio button{
+        width: 50%;
+    }
+
+    #contato .campo-textarea{
+        width: 90%;
+    }
+
+    #contato button{
+        margin-top: 90%;
+    }
 }
